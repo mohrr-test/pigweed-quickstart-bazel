@@ -23,5 +23,6 @@ int main() {
     pw::sys_io::ReadByte(&data).IgnoreError();
     pw::sys_io::WriteByte(data).IgnoreError();
   }
+
   return 0;
 }
